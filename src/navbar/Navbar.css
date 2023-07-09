@@ -1,0 +1,38 @@
+.navbar{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background: #26306e;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar__container{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__right{
+display: flex;
+list-style-type: none;
+}
+
+.navbar__right li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 0 15px;
+}
+
+.navbar__left-logo img{
+    width: 150px;
+    
+
+}
